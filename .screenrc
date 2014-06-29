@@ -1,0 +1,4 @@
+hardstatus alwayslastline "%{= bw} %{= bc}[%{-}%0c%{= bc}]%{-} [%-Lw%{= bW}%{+b}%50>%n%f* %t%{-b}%{= bw}%+Lw]%<"
+attrcolor b ".I"
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce "on"
